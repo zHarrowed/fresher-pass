@@ -47,7 +47,7 @@ gem 'strong_migrations'
 gem 'rubocop', require: false
 
 # For running background jobs
-gem "sidekiq", "~> 7.0"
+gem 'sidekiq', '~> 7.0'
 
 group :development do
   gem 'pry-rails'

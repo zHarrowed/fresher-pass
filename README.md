@@ -30,3 +30,17 @@ docker compose run --rm web bin/rails c
 docker compose run --rm web bin/rspec
 ```
 
+## Code style checking and correction
+Analyzing code style issues
+```
+rubocop
+```
+Safe auto-correct
+```
+rubocop -a
+```
+Full auto-correct
+```
+rubocop -A
+```
+

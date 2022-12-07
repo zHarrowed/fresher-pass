@@ -37,6 +37,6 @@ module FresherPass
     config.generators.system_tests = nil
 
     # Set default collation for string fields
-    config.default_collation = "fi_FI"
+    config.default_collation = 'fi_FI'
   end
 end
