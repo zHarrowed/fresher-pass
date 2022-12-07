@@ -15,11 +15,12 @@ services:
       - db
       - redis
   db:
-    image: postgres:15
+    image: kiskolabs/postgres-fi:latest
     ports:
       - "5432"
     environment:
       - POSTGRES_PASSWORD=changeme
+      - LC_COLLATE=fi_FI.UTF-8
     volumes:
       - pg_data:/var/lib/postgresql/data
   sidekiq:

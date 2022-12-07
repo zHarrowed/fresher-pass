@@ -56,3 +56,5 @@ group :development, :test do
   # Testing libraries
   gem 'rspec-rails'
 end
+
+gem 'devise', '~> 4.8'
