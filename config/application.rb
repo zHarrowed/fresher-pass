@@ -35,5 +35,8 @@ module FresherPass
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Set default collation for string fields
+    config.default_collation = "fi_FI"
   end
 end
