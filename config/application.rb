@@ -38,5 +38,8 @@ module FresherPass
 
     # Set default collation for string fields
     config.default_collation = 'fi_FI'
+
+    config.i18n.default_locale = 'fi'
+    config.i18n.available_locales = %w[en fi]
   end
 end
