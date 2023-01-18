@@ -5,5 +5,5 @@ Rails.application.routes.draw do
     # Redirects signing out users back to sign-in
     get "users", to: "devise/sessions#new"
   end
-  devise_for :users
+  devise_for :users, controllers: {sessions: "users/sessions"}
 end
