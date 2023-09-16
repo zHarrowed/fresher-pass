@@ -1,1 +1,5 @@
 fi:
+  users:
+    sessions:
+      new:
+        sign_in: Kirjaudu sisään

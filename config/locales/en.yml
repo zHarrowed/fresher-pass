@@ -30,3 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  users:
+    sessions:
+      new:
+        sign_in: Log in
